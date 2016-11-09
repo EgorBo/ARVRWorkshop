@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvpUrhoWorkshop.Droid", "MvpUrhoWorkshop.Droid\MvpUrhoWorkshop.Droid.csproj", "{FB39AA55-3132-4F96-93B1-6DA799D45646}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{151C550F-71CF-4BA5-8A81-6BC9996450D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvpUrhoWorkshop.HoloLens", "MvpUrhoWorkshop.HoloLens\MvpUrhoWorkshop.HoloLens.csproj", "{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{151c550f-71cf-4ba5-8a81-6bc9996450d9}*SharedItemsImports = 13
+		Shared\Shared.projitems*{5bd2a61e-6fdf-4ea0-ac9e-ed906a7fde37}*SharedItemsImports = 4
+		Shared\Shared.projitems*{fb39aa55-3132-4f96-93b1-6da799d45646}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
+		Ad-Hoc|x86 = Ad-Hoc|x86
+		AppStore|Any CPU = AppStore|Any CPU
+		AppStore|x86 = AppStore|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Ad-Hoc|x86.Deploy.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|Any CPU.Deploy.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|x86.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.AppStore|x86.Deploy.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|x86.Build.0 = Release|Any CPU
+		{FB39AA55-3132-4F96-93B1-6DA799D45646}.Release|x86.Deploy.0 = Release|Any CPU
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|Any CPU.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|Any CPU.Build.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|Any CPU.Deploy.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|x86.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|x86.Build.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Ad-Hoc|x86.Deploy.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|Any CPU.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|Any CPU.Build.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|Any CPU.Deploy.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|x86.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|x86.Build.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.AppStore|x86.Deploy.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|Any CPU.Build.0 = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|x86.ActiveCfg = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|x86.Build.0 = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Debug|x86.Deploy.0 = Debug|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Release|Any CPU.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Release|x86.ActiveCfg = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Release|x86.Build.0 = Release|x86
+		{5BD2A61E-6FDF-4EA0-AC9E-ED906A7FDE37}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
